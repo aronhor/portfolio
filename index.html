@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horváth Áron - Enduro Versenyző Portfólió</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f5; /* Nagyon halvány szürke háttér */
+            color: #111;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Archivo Black', sans-serif;
+            text-transform: uppercase;
+        }
+        .highlight-text {
+            background-color: #bef264; /* Élénk lime zöld */
+            color: #111;
+            padding: 0 0.25rem;
+        }
+        .section-divider {
+            border-bottom: 4px solid #111;
+            width: 80px;
+            margin: 2.5rem 0;
+        }
+        .image-shadow {
+            border: 2px solid #111;
+            box-shadow: 8px 8px 0 #111;
+            transition: all 0.2s ease-in-out;
+        }
+        .image-shadow:hover {
+            box-shadow: 12px 12px 0 #bef264;
+            transform: translate(-2px, -2px);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto max-w-4xl p-6 md:p-12 my-12 bg-white border-4 border-black">
+
+        <!-- Főcím Szekció -->
+        <header class="mb-12">
+            <h1 class="text-6xl md:text-7xl font-black text-black mb-4">HORVÁTH ÁRON</h1>
+            <p class="text-3xl font-semibold text-black" style="font-family: 'Inter'; text-transform: none;">
+                Mountain Bike Versenyző
+            </p>
+        </header>
+
+       <!-- Kép 1 és Bemutatkozó Szekció (Körbefuttatás) -->
+        <section class="mb-10 grid grid-cols-1 md:grid-cols-5 gap-8 items-start">
+            
+            <!-- Kép 1 (Portré/Akció) -->
+            <div class="md:col-span-2">
+                <img src="IMG_3154.jpg" 
+                     alt="Horváth Áron portré vagy akciókép" 
+                     class="w-full h-auto max-h-[700px] object-cover image-shadow object-top image-border"
+                     onerror="this.src='https://placehold.co/400x600/111/f5f5f5?text=Portr%C3%A9'; this.onerror=null;">
+            </div>
+
+            <!-- Bemutatkozó Szöveg Szekció -->
+            <div class="md:col-span-3 text-lg md:text-xl leading-relaxed space-y-6">
+                <p>
+                    Horváth Áron vagyok, 22 éves hegyikerékpár versenyző. Több sport kipróbálása után 10 éve megtaláltam a mountainbike versenyzést és egyből beleszerettem. A kezdeti években XCO, Maraton és cyclocross versenyeken is indultam több kevesebb sikerrel. Később XCO szakágban válogatott szintig sikerült eljutnom így számos külföldi versenyre, világkupára jutottam ki.
+                </p>
+                <p>
+                    Az utóbbi években elvesztettem az XCO versenyzés iránti motivációmat és hosszú rágódás után úgy döntöttem arra szeretnék minden erőmmel összpontosítani amit a legjobban szeretek: gyorsan menni lefelé. Az enduro szakág mindig is tetszett de az idei évig nem indultam egy versenyen sem. Ebben a szezonban megpróbáltam beletanulni ebbe a szakágba és a szezon végére sikerült sokat gyorsulnom.
+                </p>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Célok Szekció -->
+        <section class="text-left mb-12">
+            <h2 class="text-4xl font-bold text-black mb-4">A JÖVŐ CÉLJAI</h2>
+            <p class="text-2xl leading-relaxed">
+                A következő szezonban a célom, hogy <span >kvalifikáljak elite világkupára</span>, és a leggyorsabbak között is megálljam a helyem.
+            </p>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Kép 2 (Enduro Akció) -->
+        <section class="mb-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <img src="IMG_3329.JPG" 
+                 alt="Horváth Áron enduro versenyen" 
+                 class="w-full h-80 object-cover image-shadow"
+                 onerror="this.src='https://placehold.co/400x300/111/f5f5f5?text=Enduro+1'; this.onerror=null;">
+            <img src="IMG_3547.jpg" 
+                 alt="Horváth Áron ugrás közben" 
+                 class="w-full h-80 object-cover image-shadow"
+                 onerror="this.src='https://placehold.co/400x300/111/f5f5f5?text=Enduro+2'; this.onerror=null;">
+        </section>
+
+        <!-- Eredmények Szekció -->
+        <section class="mb-12">
+            <h2 class="text-4xl font-bold text-black mb-8">Eredmények</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6 text-lg">
+                <div class="border-l-4 border-black pl-4 py-2">
+                    <span class="font-bold block text-xl">Egyetemi Világbajnok</span>
+                    <span class="text-gray-700">(XCE szakág)</span>
+                </div>
+                 <div class="border-l-4 border-black pl-4 py-2">
+                    <span class="font-bold block text-xl">Szlovén Enduro Kupa (Elite)</span>
+                    <span class="text-gray-700">4. és 6. hely</span>
+                </div>
+                 <div class="border-l-4 border-black pl-4 py-2">
+                    <span class="font-bold block text-xl">Mecsek Enduro (Összetett)</span>
+                    <span class="text-gray-700">2. hely</span>
+                </div>
+                 <div class="border-l-4 border-black pl-4 py-2">
+                    <span class="font-bold block text-xl">DH Országos Bajnokság (Elite)</span>
+                    <span class="text-gray-700">4. hely (0,15 mp-re a dobogótól)</span>
+                </div>
+                <div class="border-l-4 border-black pl-4 py-2">
+                    <span class="font-bold block text-xl">Junior Magyar Bajnok</span>
+                    <span class="text-gray-700">(Cyclocross és Maraton)</span>
+                </div>
+                <div class="border-l-4 border-black pl-4 py-2">
+                    <span class="font-bold block text-xl">Elite Dobogós Magyar Bajnokságon</span>
+                    <span class="text-gray-700">(XCO és XCC)</span>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Képek 3 és 4 (Dobogó - grid) --><section class="mb-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <img src="Eliminator Medal Ceremony_FISU 2024_msanchez_FECOCI_-2.jpg" 
+                 alt="Horváth Áron dobogón, Egyetemi Világbajnok" 
+                 class="w-full h-96 object-cover object-center image-border image-shadow "
+                 onerror="this.src='https://placehold.co/400x400/111/f5f5f5?text=Dobog%C3%B3+1'; this.onerror=null;">
+            <img src="IMG_3554.JPG" 
+                 alt="Horváth Áron dobogón a Mecsek Endurón" 
+                 class="w-full h-96 object-cover object-center image-border image-shadow"
+                 onerror="this.src='https://placehold.co/400x400/111/f5f5f5?text=Dobog%C3%B3+2'; this.onerror=null;">
+        </section>
+
+        <!-- Social Média Szekció -->
+        <section class="mb-12">
+            <h2 class="text-4xl font-bold text-black mb-8">Közösségi Média</h2>
+            <div class="flex flex-col md:flex-row gap-6">
+                <!-- YouTube Link -->
+                <a href="https://www.youtube.com/@aronhorvath944" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="flex items-center justify-center text-lg font-bold uppercase p-4 border-3 border-black text-black transition-all duration-200 hover:bg-red-500 hover:text-white">
+                    <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.615 3.184c-3.604-.229-11.63-.229-15.234 0C.901 3.484 0 5.617 0 12s.901 8.516 4.381 8.816c3.604.229 11.63.229 15.234 0 3.48-.3 4.381-2.484 4.381-8.816s-.901-8.516-4.381-8.816ZM9.75 15.6V8.4l6.3 3.6-6.3 3.6Z"/>
+                    </svg>
+                    YouTube
+                </a>
+                
+                <!-- Instagram Link -->
+                <a href="https://www.instagram.com/aron.horvath.944/" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="flex items-center justify-center text-lg font-bold uppercase p-4 border-3 border-black text-black transition-all duration-200 hover:bg-yellow-400 hover:text-black">
+                    <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.784.305-1.455.717-2.126 1.388C1.343 2.69 1.03 3.36.726 4.144c-.3.765-.5 1.635-.558 2.913C.015 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.26 2.148.558 2.913.305.784.717 1.455 1.388 2.126.67.67 1.34.985 2.126 1.388.765.3 1.635.5 2.913.558C8.333 23.985 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.26 2.913-.558.784-.305 1.455-.717 2.126-1.388.67-.67.985-1.34 1.388-2.126.3-.765.5-1.635.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.26-2.148-.558-2.913-.305-.784-.717 1.455-1.388-2.126C21.31 1.343 20.64 1.03 19.856.726c-.765-.3-1.635-.5-2.913-.558C15.667.015 15.26 0 12 0Zm0 2.16c3.203 0 3.585.012 4.85.07 1.17.055 1.805.248 2.227.415.562.217.96.477 1.382.896.413.413.69.82.896 1.382.167.422.36 1.057.413 2.227.06 1.265.072 1.646.072 4.85s-.012 3.585-.072 4.85c-.055 1.17-.248 1.805-.413 2.227-.217.562-.477.96-.896 1.382-.413.413-.82.69-1.382.896-.422.167-1.057.36-2.227.413-1.265.06-1.646.072-4.85.072s-3.585-.012-4.85-.072c-1.17-.055-1.805-.248-2.227-.413-.562-.217-.96-.477-1.382-.896-.413-.413-.69-.82-.896-1.382-.167-.422-.36-1.057-.413-2.227-.06-1.265-.072-1.646-.072-4.85s.012-3.585.072-4.85c.055-1.17.248 1.805.413 2.227.217.562.477.96.896 1.382.413.413.82.69 1.382.896.422.167 1.057.36 2.227.413 1.265.06 1.646.072 4.85.072ZM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.406-11.845a1.44 1.44 0 1 1 0 2.88 1.44 1.44 0 0 1 0-2.88Z"/>
+                    </svg>
+                    Instagram
+                </a>
+            </div>
+        </section>
+
+        <!-- Záró díszítőelem --><footer class="mt-12 pt-8 border-t-4 border-black">
+            <div class="flex justify-start space-x-4">
+                
+            </div>
+    </div>
+
+</body>
+</html>
